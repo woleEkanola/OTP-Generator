@@ -7,7 +7,7 @@ def otpGenerator(length):
     otp = []
     for x in range(length):
       otp.append(str(int(random.random() * 10)))
-    print(otp)
+    # print(otp)
     curOTP = ''.join(otp)
     otpees.append(curOTP)
     return curOTP
